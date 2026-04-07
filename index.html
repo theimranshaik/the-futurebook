@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[the futurebook]</title>
+    <meta name="description" content="the-futurebook is a fun and interactive place to know about your future self. It generates random profiles with names, bios, roles, companies, locations, and hobbies. Click the 'Next Profile' button to discover new and exciting profiles. Please note that these profiles are generated just for fun and may not reflect real individuals. Enjoy exploring the future you!">
+
+    <style>
+        h3{
+            font-family: 'Arial', sans-serif;
+            margin-left: 9px;
+        }
+        .card{
+            max-width: 400px;
+            min-width: 300px;
+        }
+        button {
+        margin-left: 9px;
+        padding: 10px 16px;
+        background-color: blue;
+        color: white;
+        border: 0px solid whitesmoke;
+        cursor: pointer;
+        }
+ 
+    </style>
+</head>
+<body style="background-color: black; color: white;">
+    <h3>[the futurebook]</h3>
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <!-- <img src="https://thispersondoesnotexist.com/" alt="Random Face" width="200"> -->
+        <img  id="profile" src="" alt="faceloading" width="150">
+        <h1 id="name"></h1>
+        <p id="bio"></p>
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>More Information</h5>
+        <!-- role, company, location -->
+         <p>i am a 
+            <span id="role"></span> at 
+            <span id="company"></span>, located in 
+            <span id="location"></span> and my hobby is 
+            <span id="hobby"></span>.
+        </p>
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>Disclaimer</h5>
+        <p>These profiles are generated just for fun. click profiles and enjoy. btw, the images may not match exactly with names, just ignore :)</p>
+    </div>
+
+        <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>Crafted by</h5>
+        <p>imran shaik and here is my <a href="https://www.instagram.com/the.imranshaik/" target="_blank">@the.imranshaik</a> insta id.
+        </p>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <button id="generate">Next Profile</button>
+        <button>Share to Friends</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
