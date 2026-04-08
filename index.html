@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[the futurebook]</title>
+    <meta name="description" content="the-futurebook is a fun and interactive place to know about your future self. It generates random profiles with names, bios, roles, companies, locations, and hobbies. Click the 'Next Profile' button to discover new and exciting profiles. Please note that these profiles are generated just for fun and may not reflect real individuals. Enjoy exploring the future you!">
+
+    <style>
+
+        h3{
+            font-family: 'Arial', sans-serif;
+            margin-left: 9px;
+        }
+        .card{
+            max-width: 400px;
+            min-width: 300px;
+        }
+        button {
+        margin-left: 9px;
+        padding: 10px 16px;
+        background-color: blue;
+        color: white;
+        border: 0px solid whitesmoke;
+        cursor: pointer;
+        }
+ 
+    </style>
+</head>
+<body style="background-color: white; color: black;">
+    <h3>[the futurebook]</h3>
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <!-- <img src="https://thispersondoesnotexist.com/" alt="Random Face" width="200"> -->
+        <img  id="profile" src="" alt="faceloading" width="150">
+        <h1 id="name"></h1>
+        <p id="bio"></p>
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>More Information</h5>
+        <!-- role, company, location -->
+         <p>i am a 
+            <span id="role"></span> at 
+            <span id="company"></span>, located in 
+            <span id="location"></span> and my hobby is 
+            <span id="hobby"></span>.
+        </p>
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>Best friends</h5>
+        <p>
+        <img src="" alt="" id="frd1-img" width="50"><span id="frd1"></span>,
+        <img src="" alt="" id="frd2-img" width="50"><span id="frd2"></span>,
+        <img src="" alt="" id="frd3-img" width="50"><span id="frd3"></span>
+        </p>
+
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px; margin-top: 60px;">
+        <h5>Disclaimer</h5>
+        <p>These profiles are generated just for fun. click profiles and enjoy. btw, the images may not match exactly with names, just ignore :) and have fun!</p>
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>Created by</h5>
+        <img src="imran-profile.jpeg" alt="imransprofile" width="50px">
+        <p>imran shaik <a href="https://www.instagram.com/the.imranshaik/" target="_blank">@the.imranshaik</a>
+        </p>
+    </div>
+
+    <div class="card" style="border: 1px solid gray; margin: 10px; padding: 10px;">
+        <h5>Others</h5>
+        <p>interested to join in discussions group? you are welcome and you can 
+            <a href="https://chat.whatsapp.com/EcHrAfNsdeS7vptmG4vUC7">join here!</a>
+        </p>
+    </div>
+
+    <div style="margin-top: 0px; margin-bottom: 30px;">
+        <button id="generate">Next Profile</button>
+        <button>Share to Friends</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
